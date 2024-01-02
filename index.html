@@ -4,9 +4,25 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Frontend Mentor | Interactive pricing component</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@600;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
+<main>
+  <section class="title">
+    <h1>Simple, traffic-based pricing</h1>
+    <p>Sign-up for our 30-day trial. No credit card required.</p>
+  </section>
+  <section class="card-container">
+    <h2 class="quantity">100K PAGEVIEWS</h2>
+    <input type="range" name="rangePrice" id="rangePrice">
+    <div class="price-section">
+      <p class="price">$16.00</p>
+      <p class="subscription-time">/ month</p>
+    </div>
+  </section>
+</main>
 </body>
 </html>
